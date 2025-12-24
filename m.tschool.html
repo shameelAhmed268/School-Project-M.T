@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.T SCHOOL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="school.css">
+    <link rel="stylesheet" href="school1.css">
+</head>
+<body>
+
+    <section class="header">
+        <!----Slider-->
+<body onload="slider()">
+    <div class="banner">
+           <div class="slider">
+              <img src="M.Timage.png" id="slideimg">
+           </div>
+           <div class="overlay">
+                  <div class="navbar">
+                    <nav>
+                        
+                        <a href="m.tschool.html"><img src="M.T School logo.png"></a>
+                           <div class="nav-links" id="navlinks">
+                            <i class="fa fa-times" onclick="hideMenu()"></i>
+                                <ul>
+                                   <li><a href="m.tschool.html">HOME</a></li>
+                                   <li><a href="About.html">ABOUT</a></li>
+                                   <li><a href="course.html">COURSE</a></li>
+                                   <li><a href="blog.html">BLOG</a></li>
+                                   <li><a href="contact.html">CONTACT</a></li>
+                                   <li><a href="staff.html">STAFF</a></li>
+                                </ul>
+                           </div>
+                           <i class="fa fa-bars" onclick="showMenu()"></i>
+                          
+                     </nav>
+                     <!---
+                      <div class="logo">
+                           <img src="M.T School logo.png">
+                             <i class="fa fa-times"></i>
+                              <i class="fa fa-bars"></i>
+                      </div>
+                      <div class="menu-icons">
+                           <img src="hamburger1.png.png">
+                          <img src="user.png.png">
+                          <img src="cart1.png.png">
+                      </div>--->
+                  </div>
+                  <div class="content">
+                    <h1>THE M.T SCHOOL SYSTEM</h1>
+                    <h3>ABDULLAH SHAH GHAZI GOTH SCHEME 33 KARACHI SINDH PAKISTAN</h3>
+                    <div>
+                       <button type="button">Watch More</button>
+                       <button type="button" id="btn-2"> See You</button>
+                    </div>
+                  </div>
+           </div>
+    </div>
+    <!--- Slider end-->
+    <script>
+        var slideimg = document.getElementById("slideimg");
+        var images = new Array(
+            "M.Timage.png",
+            "function1.png",
+              "exam1.png",
+                "art1.png"
+
+        );
+        var len = images.length;
+        var i = 0;
+        function slider (){
+            if(i > len-1){
+                i =0;
+            }
+            slideimg .src = images[i];
+            i++;
+            setTimeout('slider()',3000);
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----code end -->
+
+    <!----<section class="header">--->
+        <!----
+             <nav>
+                <!------
+                <a href="m.tschool.html"><img src="M.T School logo.png"></a>
+                   <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                           <li><a href="m.tschool.html">HOME</a></li>
+                           <li><a href="About.html">ABOUT</a></li>
+                           <li><a href="course.html">COURSE</a></li>
+                           <li><a href="blog.html">BLOG</a></li>
+                           <li><a href="contact.html">CONTACT</a></li>
+                           <li><a href="staff.html">STAFF</a></li>
+                        </ul>
+                   </div>
+                   <i class="fa fa-bars" onclick="showMenu()"></i>
+                  
+             </nav>-->
+             <!-----
+             <div class="text-book">
+                  <h1>THE M.T SCHOOL SYSTEM</h1>
+                  <p>A school textbook is a book that provides information on a specific 
+                    subject and is used by students in school<br>. Textbooks are a primary source of information for students and are used to help them learn. </p>
+                    <a href="" class="hero-btn">Visit  Us To Know More</a>
+             </div>-->
+    </section>
+    <section class="course">
+      <h1>Course We Offer</h1>
+      <p>Course messages are private and secure text-based communication that occurs within your course among course members.</p>
+      <div class="row">
+      <div class="course-col">
+          <h3>Primary</h3>
+          <p>A paragraph is usually around 250 words and consists of five or six sentences, although this can vary depending on the purpose of the paragraph, and the length of the piece you are writing. Paragraphs play an important role in writing because they provide a framework for organising your ideas in a logical order.</p>
+      </div>
+      <div class="course-col">
+        <h3>Elementary</h3>
+        <p>My elementary school is a colorful place where I learn new things every day! I love playing with my friends on the big playground during recess, and my teachers are really kind and help me understand everything in class. We read fun stories in the library, and sometimes we even get to do science experiments in the lab! I look forward to going to school each day because it's a place where I can learn and make new friends.". </p>
+    </div>
+    <div class="course-col">
+        <h3>Secondary</h3>
+        <p>A secondary school is an educational institution where students typically progress after primary school, focusing on more advanced academic subjects like mathematics, science, humanities, and languages, while also providing opportunities for specialized learning through electives and extracurricular activities, allowing teenagers to further develop their skills and prepare for higher education or vocational training.</p>
+    </div>
+        <!------
+    <div class="course-col">
+        <h3>Secondary</h3>
+        <p>A secondary school is an educational institution where students typically progress after primary school, focusing on more advanced academic subjects like mathematics, science, humanities, and languages, while also providing opportunities for specialized learning through electives and extracurricular activities, allowing teenagers to further develop their skills and prepare for higher education or vocational training. 
+        </p>
+    </div>--->
+    </div>
+    </section>
+    <!-----Javascripts-->
+
+    <!------Campus-->
+    <section class="campus">
+       <h2>Our Student's</h2>
+       <p>Student texts can refer to the texts that students read and write in the classroom, as well as resources for teaching students how to read and write. </p>
+       <div class="row">
+            <div class="campus-col">
+                  <img src="zain.jpg">
+                  <div class="layer">
+                    <h3>Zain</h3>
+                  </div>
+            </div>
+            <div class="campus-col">
+                <img src="Minsa.jpg">
+                <div class="layer">
+                    <h3>Minsa Zafar</h3>
+                  </div>
+          </div>
+          <div class="campus-col">
+            <img src="zara.jpg">
+            <div class="layer">
+                <h3>Zehra</h3>
+              </div>
+      </div>
+      <div class="campus-col">
+        <img src="muntaha.jpg">
+        <div class="layer">
+            <h3>Muntaha</h3>
+          </div>
+  </div>
+  <div class="campus-col">
+    <img src="Adil.jpg">
+    <div class="layer">
+        <h3>Aadil</h3>
+      </div>
+</div>
+<div class="campus-col">
+    <img src="hassnain.jpg">
+    <div class="layer">
+        <h3>Hassnain</h3>
+      </div>
+</div>
+       </div>
+    </section>
+    <!------Facilities-->
+    <section class="Facilities">
+          <h1>Facilities</h1>
+          <p>Adequate facilities such as classrooms,libraries, laboratories, sports<br> facilities, medical rooms,
+         sanitation facilities, and computer labs <br> are essential for creating a conducive learning environment.</p>
+         <div class="row">
+              <div class="facilities-col">
+                   <img src="canteen.jpg">
+                   <h3>Canteen</h3>
+                   <p>A canteen is a store that sells food and drinks. </p>
+              </div>
+              <div class="facilities-col">
+                <img src="cafeteria.png">
+                <h3>Cafeteria</h3>
+                <p>There was a cafeteria but no food. But he does rub shoulders .</p>
+           </div>
+           <div class="facilities-col">
+            <img src="library1.jpg">
+            <h3>library</h3>
+            <p>Text Library allows you to store OpenAsset organized, easy-to-find manner. </p>
+       </div>
+       <div class="facilities-col">
+        <img src="play ground.jpg">
+        <h3>Play Ground</h3>
+        <p>Yes! Playground AI actually has a free plan.</p>
+   </div>
+   <div class="facilities-col">
+    <img src="cooler.jpg">
+    <h3>Water Cooler</h3>
+    <p>Water cooler" can be used in a variety of contexts.</p>
+</div>
+         </div>
+    </section>
+    <!------Testimonials-->
+    <section class="Testimonials">
+           <h1>What Our Student's Says</h1>
+           <p>Students can participate in class discussions by sharing ideas and responding verbally to questions. This is known as student talk. </p>
+           <div class="row">
+               
+                <div class="Testimonials-col">
+                    <img src="student1.jpg">
+                    <div class="star">
+                         <p>The hard work will be worth it in the long run. You deserve to pursue an education that will help you achieve your goals. You deserve to be happy, successful, inspired. Dream big and work hard, knowing you are valued.</p>
+                         <h3>Student</h3>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <!------
+                         <i class="fa fa-star-o"></i>-->
+                    </div>
+            </div><div class="Testimonials-col">
+                <img src="zainab.jpg">
+                <div>
+                     <p>The hard work will be worth it in the long run. You deserve to pursue an education that will help you achieve your goals. You deserve to be happy, successful, inspired. Dream big and work hard, knowing you are valued.</p>
+                     <h3>zainab Jawad</h3>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <!------
+                     <i class="fa fa-star-half-o"></i>-->
+                    
+                </div>
+        </div>
+           </div>
+    </section>
+<!------Calling To Function-->
+    <section class="cta">
+        <h1>The Day Of Examination</h1>
+        <a href="#" class="red-btn">CONTACT US</a>
+    </section>
+
+    <!----Footer-->
+    <section class="footer">
+          <h4>About Us</h4>
+          <p>Typically, an “About Us” footer includes a link to a privacy policy, a copyright notice, logo, sitemap,<br> contact information, email sign-up form, newsletter sign-up, and social media icons</p>
+           <div class="icons">
+             <a href="https://www.facebook.com/p/The-MT-School-system-100069105758269/?locale=hi_IN"><img src="facebook.jpg"></a>
+             <a href=""><img src="insat.jpg"></a>
+             <a href=""><img src="linked.jpg"></a>
+             <a href=""><img src="twitter.png"></a>
+           </div>
+           <p><b><i>All &copy;Copy rights <img src="heart.jpg">in 2025 </i></b></p>
+    </section>
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right = "0";
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
